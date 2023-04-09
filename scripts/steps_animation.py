@@ -54,7 +54,7 @@ class Script(scripts.Script):
         with gr.Accordion('Steps animation', open = False, elem_id='steps-animation'):
             gr.HTML("""
                 <a href="https://github.com/vladmandic/generative-art/tree/main/extensions">
-                Creates animation sequence from denoised intermediate steps with video frame interpolation to achieve desired animation duration</a><br>""")
+                Creates animation sequence from denoised intermediate steps with video frame interpolation to achieve desired animation duration OLD</a><br>""")
             with gr.Row():
                 is_enabled = gr.Checkbox(label = 'Script Enabled', value = False)
                 codec = gr.Radio(label = 'Codec', choices = ['x264', 'x265', 'vpx-vp9', 'aom-av1', 'prores_ks'], value = 'x264')
